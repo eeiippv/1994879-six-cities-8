@@ -1,6 +1,6 @@
-import { ValidationErrorField } from '#shared/libs/rest/index.js';
-import { ApplicationError } from '#shared/libs/rest/types/application-error.enum.js';
-import { Range } from '#types/range.interface.js';
+import { ValidationErrorField } from '../../shared/libs/rest/index.js';
+import { ApplicationError } from '../../shared/libs/rest/types/application-error.enum.js';
+import { Range } from '../../shared/types/range.interface.js';
 import { ClassConstructor, plainToInstance } from 'class-transformer';
 import { ValidationError } from 'class-validator';
 

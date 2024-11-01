@@ -1,5 +1,5 @@
-import { CityName, Location } from '#types/index.js';
-import { Range } from '#types/range.interface.js';
+import { CityName, Location } from '../../types/index.js';
+import { Range } from '../../types/range.interface.js';
 
 export const LocationOffset: Range = { Min: -0.005, Max: +0.005 };
 

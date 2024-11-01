@@ -1,7 +1,6 @@
 import { defaultClasses, getModelForClass, prop, modelOptions } from '@typegoose/typegoose';
-import { Image, User, UserType } from '#types/index.js';
-import { hashPassword } from '#shared/helpers/hash.js';
-import { verifyPassword } from '#shared/helpers/hash.js';
+import { Image, User, UserType } from '../../types/index.js';
+import { hashPassword, verifyPassword } from '../../helpers/hash.js';
 import { UserNameLimit } from './const.js';
 import { Types } from 'mongoose';
 

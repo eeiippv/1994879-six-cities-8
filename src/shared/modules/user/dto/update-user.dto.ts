@@ -1,4 +1,4 @@
-import { UserType } from '#types/user.type.enum.js';
+import { UserType } from '../../../types/index.js';
 import { IsEnum, IsOptional, IsString, Length, Matches } from 'class-validator';
 import { UserNameLimit } from '../const.js';
 import { UserValidation } from './messages.js';

@@ -1,10 +1,10 @@
 import got from 'got';
 import chalk from 'chalk';
 import { Command } from './command.interface.js';
-import { MockServerData } from '#types/index.js';
-import { TSVOfferGenerator } from '#libs/offer-generator/tsv-offer-generator.js';
-import { getErrorMessage } from '#shared/helpers/common.js';
-import { TSVFileWriter } from '#libs/file-writer/tsv-file-writer.js';
+import { MockServerData } from '../../shared/types/mock-server-data.type.js';
+import { TSVOfferGenerator } from '../../shared/libs/offer-generator/tsv-offer-generator.js';
+import { getErrorMessage } from '../../shared/helpers/common.js';
+import { TSVFileWriter } from '../../shared/libs/file-writer/tsv-file-writer.js';
 
 export class GenerateCommand implements Command {
   private initialData: MockServerData;

@@ -3,7 +3,7 @@ import { CreateOfferDto } from './dto/create-offer.dto.js';
 import { OfferEntity } from './offer.entity.js';
 import { UpdateOfferDto } from './dto/update-offer.dto.js';
 import { UpdateRatingOfferDto } from './dto/update-rating-offer.dto.js';
-import { CityName, DocumentExists } from '#types/index.js';
+import { CityName, DocumentExists } from '../../types/index.js';
 
 export interface OfferService extends DocumentExists {
   create(dto: CreateOfferDto): Promise<DocumentType<OfferEntity>>;

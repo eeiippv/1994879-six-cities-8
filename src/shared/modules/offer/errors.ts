@@ -1,4 +1,4 @@
-import { HttpError } from '#shared/libs/rest/index.js';
+import { HttpError } from '../../libs/rest/index.js';
 import { StatusCodes } from 'http-status-codes';
 
 export class OfferAccessError extends HttpError {

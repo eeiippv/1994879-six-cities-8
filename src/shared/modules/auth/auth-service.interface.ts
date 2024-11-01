@@ -1,4 +1,4 @@
-import { LoginUserDto, UserEntity } from '#shared/modules/user/index.js';
+import { LoginUserDto, UserEntity } from '../user/index.js';
 
 export interface AuthService {
   authenticate(user: UserEntity): Promise<string>;

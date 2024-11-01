@@ -6,12 +6,12 @@ import {
   HttpMethod,
   PrivateRouteMiddleware,
   ValidateObjectIdMiddleware,
-} from '#libs/rest/index.js';
-import { Logger } from '#libs/logger/index.js';
-import { Component } from '#types/index.js';
+} from '../../libs/rest/index.js';
+import { Logger } from '../../libs/logger/index.js';
+import { Component } from '../../types/index.js';
 import { OfferService } from './offer-service.interface.js';
 import { OfferRoute } from './const.js';
-import { fillDto } from '#shared/helpers/common.js';
+import { fillDto } from '../../helpers/common.js';
 import { OfferRdo } from './rdo/offer.rdo.js';
 import { OfferRequest } from './types/offer-request.type.js';
 

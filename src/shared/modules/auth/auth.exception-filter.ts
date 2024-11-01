@@ -1,8 +1,8 @@
 import { inject, injectable } from 'inversify';
 import { NextFunction, Request, Response } from 'express';
-import { ExceptionFilter } from '#libs/rest/index.js';
-import { Component } from '#types/index.js';
-import { Logger } from '#libs/logger/index.js';
+import { ExceptionFilter } from '../../libs/rest/index.js';
+import { Component } from '../../types/index.js';
+import { Logger } from '../../libs/logger/index.js';
 import { BaseUserException } from './errors/base-user.exception.js';
 
 @injectable()

@@ -1,4 +1,4 @@
-import { UserType } from '#types/index.js';
+import { UserType } from '../../../types/index.js';
 import { IsEmail, IsEnum, IsString, Length } from 'class-validator';
 import { PasswordLimit, UserNameLimit } from '../const.js';
 import { UserValidation } from './messages.js';

@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify';
 import { DocumentType, mongoose, types } from '@typegoose/typegoose';
 import { CommentService } from './comment-service.interface.js';
-import { Component, SortType } from '#types/index.js';
+import { Component, SortType } from '../../types/index.js';
 import { CommentEntity } from './comment.entity.js';
 import { CreateCommentDto } from './dto/create-comment.dto.js';
 import { OfferConstant, RatingLimit } from '../offer/const.js';

@@ -1,6 +1,6 @@
 import { defaultClasses, getModelForClass, modelOptions, prop, Ref } from '@typegoose/typegoose';
-import { UserEntity } from '#shared/modules/user/index.js';
-import { Goods, OfferType, Location, City } from '#types/index.js';
+import { UserEntity } from '../user/index.js';
+import { Goods, OfferType, Location, City } from '../../types/index.js';
 import { Schema } from 'mongoose';
 import { AdultLimit, RoomLimit } from './const.js';
 

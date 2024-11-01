@@ -20,7 +20,7 @@
     "strictPropertyInitialization": false,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "./src",
     "emitDecoratorMetadata": true,
     "types": ["node"],
     "lib": ["ESNext"]

@@ -1,4 +1,4 @@
-import { Range } from '#types/range.interface.js';
+import { Range } from '../../types/range.interface.js';
 
 export const DEFAULT_AVATAR_FILE_NAME = 'default-avatar.svg';
 

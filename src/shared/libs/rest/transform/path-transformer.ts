@@ -1,9 +1,9 @@
 import { inject, injectable } from 'inversify';
 import { StaticConfig } from './path-transformer.constant.js';
-import { Component } from '#types/index.js';
-import { Logger } from '#libs/logger/index.js';
-import { getFullServerPath } from '#shared/helpers/common.js';
-import { RestSchema, Config } from '#shared/libs/config/index.js';
+import { Component } from '../../../types/index.js';
+import { Logger } from '../../logger/index.js';
+import { getFullServerPath } from '../../../helpers/common.js';
+import { RestSchema, Config } from '../../../libs/config/index.js';
 import { StaticRoute } from '../../../../rest/rest.const.js';
 
 function isObject(value: unknown): value is Record<string, object> {

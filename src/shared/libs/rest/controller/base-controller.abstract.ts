@@ -3,9 +3,9 @@ import { StatusCodes } from 'http-status-codes';
 import express, { Response } from 'express';
 import asyncHandler from 'express-async-handler';
 import { Controller } from './controller.interface.js';
-import { Logger } from '#libs/logger/index.js';
-import { Route } from '#libs/rest/types/route.interface.js';
-import { Component } from '#types/component.enum.js';
+import { Logger } from '../../logger/index.js';
+import { Route } from '../types/route.interface.js';
+import { Component } from '../../../types/index.js';
 import { PathTransformer } from '../transform/path-transformer.js';
 
 @injectable()

@@ -3,8 +3,8 @@ import { jwtVerify } from 'jose';
 import { StatusCodes } from 'http-status-codes';
 import { createSecretKey } from 'node:crypto';
 import { Middleware } from './middleware.interface.js';
-import { HttpError } from '#libs/rest/errors/index.js';
-import { TokenPayload } from '#shared/modules/auth/index.js';
+import { HttpError } from '../errors/index.js';
+import { TokenPayload } from '../../../modules/auth/index.js';
 
 function isTokenPayload(payload: unknown): payload is TokenPayload {
   return (

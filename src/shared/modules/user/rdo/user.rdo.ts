@@ -1,5 +1,5 @@
 import { Expose } from 'class-transformer';
-import { UserType } from '#types/user.type.enum.js';
+import { UserType } from '../../../types/index.js';
 
 export class UserRdo {
   @Expose()

@@ -1,4 +1,4 @@
-import { City, Goods, Image, Location, OfferType } from '#types/index.js';
+import { City, Goods, Image, Location, OfferType } from '../../../types/index.js';
 import {
   ArrayMaxSize,
   ArrayMinSize,

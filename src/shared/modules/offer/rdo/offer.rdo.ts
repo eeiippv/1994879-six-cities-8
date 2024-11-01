@@ -1,6 +1,6 @@
-import { City, Location, OfferType, Goods } from '#types/index.js';
+import { City, Location, OfferType, Goods } from '../../../types/index.js';
 import { Expose, Type } from 'class-transformer';
-import { UserRdo } from '#shared/modules/user/rdo/user.rdo.js';
+import { UserRdo } from '../../user/rdo/user.rdo.js';
 
 export class OfferRdo {
   @Expose()

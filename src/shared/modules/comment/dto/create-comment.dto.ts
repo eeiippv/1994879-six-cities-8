@@ -1,6 +1,6 @@
 import { IsNumber, IsString, Length, Max, Min } from 'class-validator';
 import { CommentLimit } from '../const.js';
-import { RatingLimit } from '#shared/modules/offer/const.js';
+import { RatingLimit } from '../../offer/const.js';
 import { CommentValidation } from './messages.js';
 
 export class CreateCommentDto {

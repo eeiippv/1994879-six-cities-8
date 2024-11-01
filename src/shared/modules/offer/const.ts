@@ -1,4 +1,4 @@
-import { Range } from '#types/range.interface.js';
+import { Range } from '../../types/range.interface.js';
 
 export const OfferConstant = {
   DefaultCount: 60,

@@ -1,5 +1,5 @@
-import { RatingLimit } from '#shared/modules/offer/const.js';
-import { CommentLimit } from '#shared/modules/comment/const.js';
+import { RatingLimit } from '../../offer/const.js';
+import { CommentLimit } from '../const.js';
 
 export const CommentValidation = {
   comment: {

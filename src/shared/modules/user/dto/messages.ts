@@ -1,4 +1,4 @@
-import { PasswordLimit, UserNameLimit } from '#shared/modules/user/const.js';
+import { PasswordLimit, UserNameLimit } from '../const.js';
 
 export const UserValidation = {
   email: {

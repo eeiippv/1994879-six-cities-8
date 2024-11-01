@@ -7,9 +7,9 @@ import {
   getRandomInRange,
   getRandomItem,
   getRandomItems,
-} from '#shared/helpers/common.js';
-import { PriceLimit, RatingLimit, RoomLimit, AdultLimit, OfferConstant } from '#shared/modules/offer/const.js';
-import { OfferType, MockServerData, CityName, UserType } from '#types/index.js';
+} from '../../helpers/common.js';
+import { PriceLimit, RatingLimit, RoomLimit, AdultLimit, OfferConstant } from '../../modules/offer/const.js';
+import { OfferType, MockServerData, CityName, UserType } from '../../types/index.js';
 import { CitiesLocation, LocationOffset } from './const.js';
 
 export class TSVOfferGenerator implements OfferGenerator {

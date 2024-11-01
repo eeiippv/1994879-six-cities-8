@@ -7,13 +7,13 @@ import {
   PrivateRouteMiddleware,
   ValidateDtoMiddleware,
   ValidateObjectIdMiddleware,
-} from '#libs/rest/index.js';
-import { Logger } from '#libs/logger/index.js';
-import { Component } from '#types/index.js';
+} from '../../libs/rest/index.js';
+import { Logger } from '../../libs/logger/index.js';
+import { Component } from '../../types/index.js';
 import { OfferService } from './offer-service.interface.js';
 import { OfferRoute } from './const.js';
 import { CommentService } from '../comment/index.js';
-import { fillDto } from '#shared/helpers/common.js';
+import { fillDto } from '../../helpers/common.js';
 import { OfferRdo } from './rdo/offer.rdo.js';
 import { NotFoundOfferError } from './offer.error.js';
 import { CreateOfferDto } from './dto/create-offer.dto.js';

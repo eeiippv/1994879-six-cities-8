@@ -6,7 +6,7 @@ import {
   RatingLimit,
   RoomLimit,
   TitleLimit,
-} from '#shared/modules/offer/const.js';
+} from '../const.js';
 
 export const OfferValidation = {
   title: {

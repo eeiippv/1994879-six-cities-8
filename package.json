@@ -66,10 +66,5 @@
     "reflect-metadata": "0.2.2",
     "swagger-ui-express": "5.0.1",
     "yamljs": "0.3.0"
-  },
-  "imports": {
-    "#types/": "./src/shared/types/",
-    "#shared/*": "./src/shared/*",
-    "#libs/*": "./src/shared/libs/*"
   }
 }

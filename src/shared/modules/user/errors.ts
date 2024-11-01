@@ -1,6 +1,6 @@
-import { HttpError } from '#shared/libs/rest/index.js';
+import { HttpError } from '../../libs/rest/index.js';
 import { StatusCodes } from 'http-status-codes';
-import { Component } from '#types/component.enum.js';
+import { Component } from '../../types/index.js';
 
 export class UserAlreadyExistsError extends HttpError {
   constructor(email: string) {

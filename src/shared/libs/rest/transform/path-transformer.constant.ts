@@ -1,4 +1,4 @@
-import { DEFAULT_AVATAR_FILE_NAME } from '#shared/modules/user/const.js';
+import { DEFAULT_AVATAR_FILE_NAME } from '../../../modules/user/const.js';
 
 export const StaticConfig = {
   ImageFields: ['avatarUrl'],

@@ -1,4 +1,4 @@
-import { Range } from '#types/range.interface.js';
+import { Range } from '../../types/range.interface.js';
 
 export const CommentLimit: Range = {
   Min: 5,

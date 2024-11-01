@@ -6,18 +6,18 @@ import {
   PrivateRouteMiddleware,
   UploadFileMiddleware,
   ValidateDtoMiddleware,
-} from '#libs/rest/index.js';
-import { Logger } from '#libs/logger/index.js';
-import { Component } from '#types/index.js';
+} from '../../libs/rest/index.js';
+import { Logger } from '../../libs/logger/index.js';
+import { Component } from '../../types/index.js';
 import { CreateUserRequest, LoginUserRequest } from './user-request.type.js';
 import { UserService } from './user-service.interface.js';
-import { Config, RestSchema } from '#libs/config/index.js';
-import { fillDto } from '#shared/helpers/common.js';
+import { Config, RestSchema } from '../../libs/config/index.js';
+import { fillDto } from '../../helpers/common.js';
 import { UserRdo } from './rdo/user.rdo.js';
 import { UnauthorizedError, UserAlreadyExistsError } from './errors.js';
 import { UserRoute } from './const.js';
 import { CreateUserDto } from './dto/create-user.dto.js';
-import { AuthService } from '#shared/modules/auth/auth-service.interface.js';
+import { AuthService } from '../auth/auth-service.interface.js';
 import { LoggedUserRdo } from './rdo/logged-user.rdo.js';
 import { UploadUserAvatarRdo } from './rdo/upload-user-avatar.rdo.js';
 
